@@ -236,19 +236,19 @@ footer {
 }
 @media screen and (max-width: 980px) {
 
-    body {width: 600px;
-    }
+    /* body {width: 600px;
+    } */
     .wrapper {
-        width: 600px;
+        width: 700px;
       }
     }
 @media screen and (max-width: 768px) {
     .wrapper {
-        width: 600px;
+        width: 400px;
       }
     }
 @media screen and (max-width: 640px) {
     .wrapper {
-        width: 600px;
+        width: 400px;
       }
     }
