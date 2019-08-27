@@ -1,0 +1,254 @@
+/*header style*/
+
+header{
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: solid 1px #cccccc;
+    height: 70px;
+    position: static;
+}
+
+.headerContainer{
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1{
+    background-color:lightblue;
+    height: 30px;
+    float: left;
+    margin: 0;
+    padding: 20px 10px;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav{
+    float: right;
+    padding: 20px 0 0 0;
+}
+
+a{
+    color: lightgray;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 0 10px 0 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/*body style*/
+
+body {
+    background-image: url("../images/sativa.png");
+    margin:0;
+}
+
+section{
+    width: 80%;
+    margin: 45px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    overflow: auto;
+
+}
+
+img {
+    float: left;
+    padding: 10px;
+    margin: 0 15px 15px 0;
+
+}
+
+h2 {
+    color: lightblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*Portfolio Style*/
+.container {
+    width: 100%;}
+
+.image { 
+    position: relative; 
+    width: 100%; /* for IE 6 */
+ }
+ 
+ #art { 
+    position: absolute; 
+    top: 130px; 
+    left: 10px; 
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px 0 0 0;
+    color: azure;
+    background-color:lightblue;
+ }
+ #subway { 
+    position: absolute; 
+    top: 130px; 
+    left: 245px; 
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px 0 0 0;
+    color: azure;
+    background-color:lightblue;
+ }
+ #NYC { 
+    position: absolute; 
+    top: 130px; 
+    left: 480px; 
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px 0 0 0;
+    color: azure;
+    background-color:lightblue;
+ }
+ #mp3 { 
+    position: absolute; 
+    top: 130px; 
+    left: 715px; 
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px 0 0 0;
+    color: azure;
+    background-color:lightblue;
+ }
+
+
+
+/* 
+    
+    
+}
+
+.box {
+    position: relative;
+}
+
+#artPic {
+    background-color:lightblue;
+    height: 40px;
+    width: 400px;
+    top: 375px;
+    left: 289.5px;
+    position: absolute;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px 0 0 0;
+    color: azure;
+}
+
+#subwayPic {
+    background-color:lightblue;
+    height: 40px;
+    width: 400px;
+    position: absolute;
+    top: 375px;
+    right: 394.5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px 0 0 0;
+    color: azure;
+}
+
+#oldMP3 {
+    background-color:lightblue;
+    height: 40px;
+    width: 400px;
+    position: absolute;
+    top: 610px;
+    right: 394.5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px 0 0 0;
+    color: azure;
+}
+
+#newYork {
+    background-color:lightblue;
+    height: 40px;
+    width: 400px;
+    position: absolute;
+    top: 610px;
+    left: 289.5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px 0 0 0;
+    color: azure;
+} */
+
+/*Contact form style*/
+
+form{
+    width: 80%;
+    margin: 45px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    overflow: auto;
+    color: grey
+}
+
+#messageBox {
+    height: 200px;
+    width: 80%;
+}
+
+#name {
+    width: 80%;
+}
+
+#email {
+    width: 80%;
+}
+input[type=submit] {
+    background-color: lightblue;
+    color: grey;
+    padding: 12px 20px;
+    border: solid 1px lightgray;
+    cursor: crosshair;
+    font-family: Arial, Helvetica, sans-serif
+  }
+
+  textarea{
+      resize: vertical;
+      width: 100%;
+  }
+/*footer style*/
+
+footer {
+    width: 100%;
+    background-color: darkgrey;
+    height: 70px;
+    text-align: center;
+    border-top: solid 3px lightblue;
+    padding-top: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: sticky;
+}
+@media screen and (max-width: 980px) {
+
+    body {width: 600px;
+    }
+    .wrapper {
+        width: 600px;
+      }
+    }
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 600px;
+      }
+    }
+@media screen and (max-width: 640px) {
+    .wrapper {
+        width: 600px;
+      }
+    }
